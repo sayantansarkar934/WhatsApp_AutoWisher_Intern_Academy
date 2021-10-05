@@ -18,7 +18,7 @@ def wp_send(num, text):
     # function for sending whatsapp message
     num = str(num)
     text = str(text)
-    wp.sendwhatmsg(num, text, 18, 34, 5)
+    wp.sendwhatmsg(num, text, 0, 0, 5)
     pyautogui.click(1050, 950)
     time.sleep(2)
     pyautogui.click(1866, 974)
